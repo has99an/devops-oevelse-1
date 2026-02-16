@@ -16,3 +16,6 @@ jobs:
         
       - name: Run a basic test
         run: echo "CI Pipeline Running! Test passed."
+
+      - name: Run test script
+        run: bash test_script.sh
