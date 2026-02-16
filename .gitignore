@@ -1,0 +1,11 @@
+# VS Code
+.vs/
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# System
+*.log
