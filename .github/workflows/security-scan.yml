@@ -7,6 +7,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         
+      - name: Build Docker image
+        run: docker build -t my-app ./docker-app
+        
       - name: Install Trivy
         run: |
           sudo apt-get install wget -y
@@ -15,4 +18,4 @@ jobs:
           sudo mv trivy /usr/local/bin/
           
       - name: Scan Docker image for vulnerabilities
-        run: trivy fs .
+        run: trivy image --severity HIGH,CRITICAL my-app
