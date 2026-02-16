@@ -1,2 +1,3 @@
-# DevOps Øvelse 1
-Dette er min første ændring på en feature branch. En ny ændring
+# DevOps Ã˜velse 1
+Dette er min fÃ¸rste Ã¦ndring pÃ¥ en feature branch. her er der en anden Ã¦ndring konflikt b
+Dette er min fÃ¸rste Ã¦ndring pÃ¥ en feature branch. En ny Ã¦ndring
