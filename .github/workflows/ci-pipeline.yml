@@ -19,3 +19,9 @@ jobs:
 
       - name: Run test script
         run: bash test_script.sh
+
+      - name: Install pytest
+        run: pip install pytest
+  
+      - name: Run Unit Tests
+        run: pytest test_example.py --maxfail=1 --disable-warnings -q
